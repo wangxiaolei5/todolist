@@ -5,10 +5,10 @@ export default {
       author: 'Wxl'
     }
   },
-  render () {
+  render (h) {
     return (
       <div id="footer">
-        <span>Written by {this.author}</span>
+        Written by {this.author}
       </div>
     )
   }
